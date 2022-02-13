@@ -1,8 +1,4 @@
-
 import requests
-
-
-
 
 def domainvalidate(email):
     domain = email.split('@')[1]
@@ -10,7 +6,6 @@ def domainvalidate(email):
         return 0;
     else:
         return 1
-
 
 def addressvalidate(email):
     response = requests.get (
@@ -24,8 +19,6 @@ def addressvalidate(email):
         return 1
     else:
         return 2
-
-
 
 def emailvalidate(email):
     if "@" in email:
