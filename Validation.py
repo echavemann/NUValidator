@@ -1,6 +1,6 @@
-import re
+
 import requests
-import email_validator
+
 
 
 
